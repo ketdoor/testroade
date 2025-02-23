@@ -144,16 +144,16 @@
     </div>
 
     <!-- Years of experience-->
-    <section class="section section-sm bg-default" id="about">
+    <section dir="rtl" class="section section-sm bg-default" id="about">
       <h2 class="wow fadeInLeft my-5">من نحن</h2>
       <div class="container">
-        <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
+        <div class="row row-30 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left" style="align-items: center !important;">
           <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img" href="#">
               <div id="particles-js"></div><span class="counter">15</span>
             </a></div>
-          <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
+          <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4" style="text-align: start;">
             <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
-              <h3 class="title-decoration-lines-left">سنوات من خبرة</h3>
+              <h3 class="title-decoration-lines-left">سنة من خبرة</h3>
               <p class="text-gray-500">RatherApp is a team of highly experienced app designers and developers creating
                 unique software for you.</p><a class="button button-secondary button-pipaluk" target="_blank" download="Company Profile -مضغوط.pdf" href="Company Profile -مضغوط.pdf">
                   الملف التعريفي للشركة
@@ -162,16 +162,26 @@
           </div>
           <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
             <div class="row justify-content-center border-2-column offset-top-xl-26">
-              <div class="col-9 col-sm-6">
+              <style>
+                @media (max-width: 768px) {
+                  .b {
+                    border-right: none !important;
+                    border-top: none !important;
+                    border-left: none !important;
+                  }
+                  
+                }
+              </style>
+              <div class="col-9 col-sm-6 b" style="border-left: 1px solid #e1e1e1">
                 <div class="counter-amy">
-                  <div class="counter-amy-number"><span class="symbol">ألف</span><span style="font-size: 80px;" class="counter">12</span>
+                  <div class="counter-amy-number"><span style="font-size: 80px;" class="counter">12</span><span class="symbol">ألف</span>
                   </div>
                   <h6 class="counter-amy-title">مواقع</h6>
                 </div>
               </div>
-              <div class="col-9 col-sm-6">
+              <div class="col-9 col-sm-6" style="border-top: none;">
               </div>
-              <div class="col-9 col-sm-6">
+              <div class="col-9 col-sm-6" style="border-left: 1px solid #e1e1e1">
 
               </div>
               <div class="col-9 col-sm-6">
@@ -190,7 +200,7 @@
     <section class="section section-sm section-fluid bg-default text-center" id="services">
       <div class="container-fluid">
         
-        <h2 class="wow fadeInLeft my-5">أقســـــــــــــــــــــــــــــــــــــــــام عملنا</h2>
+        <h2 class="wow fadeInLeft my-5">أقســــــام عملنا</h2>
         <!-- <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">In our portfolio, you can browse the latest products developed for our clients for different corporate purposes. Our qualified team of interface designers and software developers is always ready to create something unique for you.</p> -->
         <div class="row row-30 isotope" data-isotope-layout="fitRows" data-isotope-group="gallery" data-lightgallery="group">
           <div class="col-sm-12 col-md-6 col-lg-4 col-xxl-4 isotope-item wow fadeInRight" >
@@ -348,7 +358,7 @@
                   <div class="box-contacts-body">
                     <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
                     <div class="box-contacts-decor"></div>
-                    <p class="box-contacts-link"><a href="mailto:#">info@rawabet-metal.com
+                    <p class="box-contacts-link" style="font-size: 16px;"><a href="mailto:#">info@rawabet-metal.com
 
                       </a></p>
                   </div>
@@ -383,7 +393,7 @@
             <ul class="footer-list-category-2">
               <li><a href="#home">الرئسية</a></li>
               <li><a href="#about">من نحن</a></li>
-              <li><a href="#services"> أقســـــــــــــــــــــــــــــــــــــــــام عملنا</a></li>
+              <li><a href="#services"> أقسـام عملنا</a></li>
               <li><a href="#contact">تواصل معنا</a></li>
             </ul>
           </div>
