@@ -2402,7 +2402,7 @@ hr {
 	position: absolute;
 	content: '';
 	top: 0;
-	left: 0;
+	right: -5px;
 	height: 100%;
 	width: 4px;
 	background: #d7d7d7;
@@ -3772,7 +3772,7 @@ hr {
 .button-pipaluk {
 	position: relative;
 	overflow: visible;
-	padding: 19px 35px 17px;
+	padding: 19px 19px 17px;
 	border: none;
 	z-index: 1;
 }
@@ -7091,7 +7091,7 @@ textarea.textarea-lg {
 	.single-project-aside {
 		padding-left: 40px;
 		padding-top: 0;
-		border-left: 1px solid #e1e1e1;
+		;
 		border-top: none;
 	}
 }
@@ -9509,7 +9509,7 @@ h5 + .list-popular-product {
 		padding-top: 0;
 		padding-left: 28px;
 		border-top: none;
-		border-left: 1px solid #e1e1e1;
+		;
 	}
 }
 
@@ -10556,7 +10556,7 @@ html.boxed body {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	font-size: 320px;
+	font-size: 275px;
 	line-height: 85%;
 	font-weight: 600;
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -17406,7 +17406,7 @@ h1 + .tabs-line {
 }
 
 .counter-amy-number .symbol {
-	font-size: 70px;
+	font-size: 45px;
 	letter-spacing: 0;
 	margin-left: -8px;
 }
@@ -17545,7 +17545,7 @@ h1 + .tabs-line {
 		padding-bottom: 0;
 	}
 	.border-2-column > div:nth-child(even) {
-		border-left: 1px solid #e1e1e1;
+		;
 	}
 	.border-2-column > div:nth-child(even) .counter-amy {
 		padding-right: 0;
